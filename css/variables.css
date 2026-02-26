@@ -1,0 +1,58 @@
+:root {
+  /* === Colors === */
+  --color-bg-primary:    #1b1714;
+  --color-bg-secondary:  #231f1b;
+  --color-bg-dark:       #0d0b0a;
+  --color-bg-card:       #1f1b17;
+
+  --color-accent-orange: #e8622a;
+  --color-accent-orange-hover: #d4571f;
+  --color-accent-green:  #7daa68;
+
+  --color-text-primary:  #e8ddd3;
+  --color-text-secondary:#8b7e74;
+  --color-text-muted:    #5a5048;
+
+  --color-border:        #3d3529;
+  --color-border-subtle: rgba(61, 53, 41, 0.5);
+
+  /* === Typography === */
+  --font-heading:  'Space Grotesk', sans-serif;
+  --font-mono:     'JetBrains Mono', monospace;
+  --font-body:     'Inter', sans-serif;
+
+  --fs-hero:       clamp(2.5rem, 5vw, 4rem);
+  --fs-h2:         clamp(1.75rem, 3.5vw, 3rem);
+  --fs-h3:         clamp(1.125rem, 2vw, 1.5rem);
+  --fs-body:       clamp(0.875rem, 1.2vw, 1rem);
+  --fs-small:      clamp(0.6875rem, 1vw, 0.8125rem);
+  --fs-label:      0.6875rem;
+
+  --letter-tight:  -0.02em;
+  --lh-tight:      1.1;
+  --lh-normal:     1.5;
+  --lh-relaxed:    1.7;
+
+  /* === Spacing === */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+  --space-4xl: 8rem;
+
+  /* === Layout === */
+  --container-max:    1100px;
+  --container-pad:    clamp(1rem, 4vw, 2rem);
+  --section-pad-y:    var(--space-4xl);
+  --border-radius:    2px;
+  --border-radius-lg: 4px;
+
+  /* === Transitions === */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-sm: 200ms;
+  --duration-md: 400ms;
+  --duration-lg: 800ms;
+}

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Growthway Hack - Hackathon 100% online e gratuito. 6 a 8 de março de 2026. Ideias que aceleram o futuro. Prêmio de R$ 5.000 para o 1º lugar.">
+  <meta property="og:title" content="Growthway Hack | Hackathon de Inovação">
+  <meta property="og:description" content="Hackathon 100% online e gratuito. 6-8 Março 2026. Prêmio de R$ 5.000. Inscreva-se!">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1b1714">
+  <title>Growthway Hack | Ideias que Aceleram o Futuro</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/_.png">
+  <link rel="apple-touch-icon" href="assets/images/_.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__brand">
+        <span class="text-accent">$</span> growthway_hack
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <a href="#sobre" class="nav__link">sobre</a>
+        <span class="nav__sep">|</span>
+        <a href="#detalhes" class="nav__link">detalhes</a>
+        <span class="nav__sep">|</span>
+        <a href="#mentores" class="nav__link">mentores</a>
+        <span class="nav__sep">|</span>
+        <a href="#porque" class="nav__link">por que</a>
+        <span class="nav__sep">|</span>
+        <a href="#faq" class="nav__link">faq</a>
+        <span class="nav__sep">|</span>
+        <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary btn-primary--sm">inscreva-se</a>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ========================================
+         SECTION 1: HERO
+         ======================================== -->
+    <section class="section hero" id="hero" style="padding-top: 10rem;">
+      <!-- ASCII art background decoration -->
+      <pre class="ascii-art ascii-art--dim ascii-art--hero" aria-hidden="true">
+ ██████╗ ██████╗  ██╗    ██╗
+██╔════╝ ██╔══██╗ ██║    ██║
+██║  ███╗██████╔╝ ██║ █╗ ██║
+██║   ██║██╔══██╗ ██║███╗██║
+╚██████╔╝██║  ██║ ╚███╔███╔╝
+ ╚═════╝ ╚═╝  ╚═╝  ╚══╝╚══╝
+██╗  ██╗ █████╗  ██████╗██╗  ██╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝
+███████║███████║██║     █████╔╝
+██╔══██║██╔══██║██║     ██╔═██╗
+██║  ██║██║  ██║╚██████╗██║  ██╗
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+      </pre>
+
+      <div class="container" style="position: relative; z-index: 1;">
+        <!-- Status bar -->
+        <div class="status-bar hero__status-bar">
+          <div class="status-bar__item">
+            <span class="status-badge">active</span>
+          </div>
+          <span class="status-bar__sep"></span>
+          <div class="status-bar__item">hackathon_v1.0</div>
+          <span class="status-bar__sep"></span>
+          <div class="status-bar__item">100% online</div>
+          <span class="status-bar__sep"></span>
+          <div class="status-bar__item">06-08 mar 2026</div>
+        </div>
+
+        <!-- Section label -->
+        <p class="section-label" style="margin-top: var(--space-xl);">// 01_HERO</p>
+
+        <!-- Heading -->
+        <h1 class="hero__heading">
+          IDEIAS QUE ACELERAM<br>
+          O <span class="text-accent">FUTURO</span>
+        </h1>
+
+        <!-- Description -->
+        <p class="hero__description text-muted" style="max-width: 560px; margin-top: var(--space-lg); font-size: 1.05rem;">
+          Sua solução pode ser o próximo negócio a ganhar aceleração de verdade. Se você é do tipo que olha um problema e já começa a pensar em como resolver, esse hackathon é o seu lugar.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero__cta" style="display: flex; gap: 1rem; margin-top: var(--space-xl); flex-wrap: wrap;">
+          <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Quero participar <span style="margin-left: 4px;">&rarr;</span>
+          </a>
+          <a href="#sobre" class="btn-outline">
+            <span class="mono" style="margin-right: 4px;">&gt;</span> Saiba mais
+          </a>
+        </div>
+
+        <!-- Terminal window with typing effect -->
+        <div class="terminal-window hero__terminal" style="margin-top: var(--space-2xl); max-width: 620px;">
+          <div class="terminal-window__header">
+            <div class="terminal-window__dot terminal-window__dot--red"></div>
+            <div class="terminal-window__dot terminal-window__dot--yellow"></div>
+            <div class="terminal-window__dot terminal-window__dot--green"></div>
+            <span class="terminal-window__title">growthway-hack ~</span>
+          </div>
+          <div class="terminal-window__body">
+            <span id="hero-typed"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 2: SOBRE O HACKATHON
+         ======================================== -->
+    <section class="section section--bordered" id="sobre">
+      <div class="container">
+        <p class="section-label gs-reveal">// 02_SOBRE</p>
+        <div class="grid-2">
+          <div class="gs-reveal">
+            <h2>Sobre o <span class="text-accent">Hackathon</span></h2>
+            <p class="text-muted" style="margin-top: var(--space-lg); line-height: 1.8;">
+              O Growthway Hack é uma imersão 100% online onde ideias saem do papel e viram soluções testáveis, com apoio de mentores e desafios conectados ao que realmente trava o crescimento de startups.
+            </p>
+            <p class="text-muted" style="margin-top: var(--space-md); line-height: 1.8;">
+              Durante o hackathon, as equipes vão transformar desafios estratégicos em protótipos e propostas de solução, e os projetos mais promissores podem ganhar espaço no segundo batch do programa de aceleração Growthway.
+            </p>
+            <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary" style="margin-top: var(--space-xl);">
+              Quero participar <span>&rarr;</span>
+            </a>
+          </div>
+          <div class="gs-reveal">
+            <div class="terminal-window">
+              <div class="terminal-window__header">
+                <div class="terminal-window__dot terminal-window__dot--red"></div>
+                <div class="terminal-window__dot terminal-window__dot--yellow"></div>
+                <div class="terminal-window__dot terminal-window__dot--green"></div>
+                <span class="terminal-window__title">evento.config</span>
+              </div>
+              <div class="terminal-window__body">
+                <p class="terminal-prompt">cat evento.config</p>
+                <br>
+                <p class="terminal-output">{</p>
+                <p class="terminal-output">&nbsp;&nbsp;"nome": "Growthway Hack",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"formato": <span class="text-accent">"100% online"</span>,</p>
+                <p class="terminal-output">&nbsp;&nbsp;"data": <span class="text-accent">"6 a 8 de março de 2026"</span>,</p>
+                <p class="terminal-output">&nbsp;&nbsp;"equipes": "3 a 4 participantes",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"prêmio": <span class="text-accent">"R$ 5.000"</span>,</p>
+                <p class="terminal-output">&nbsp;&nbsp;"custo": "R$ 0 (gratuito)",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"mentoria": true</p>
+                <p class="terminal-output">}</p>
+                <br>
+                <p class="terminal-comment">programa carregado com sucesso.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 3: DETALHES DO EVENTO
+         ======================================== -->
+    <section class="section section--bordered" id="detalhes">
+      <div class="container">
+        <p class="section-label gs-reveal">// 03_DETALHES</p>
+        <h2 class="gs-reveal">Detalhes do <span class="text-accent">evento</span></h2>
+        <p class="text-muted gs-reveal" style="margin-top: var(--space-md); max-width: 500px;">
+          Toda a jornada de abertura, mentorias, desenvolvimento e apresentações acontece em ambiente digital.
+        </p>
+
+        <div class="grid-cards gs-stagger" style="margin-top: var(--space-xl);">
+          <!-- Card: Edicao Online -->
+          <div class="card">
+            <div class="card__icon"><i class="ph ph-globe"></i></div>
+            <h3 class="card__title">Edição Online</h3>
+            <p class="card__text">06, 07 e 08 de março de 2026. Participe de qualquer lugar do Brasil.</p>
+            <div class="card__footer">format: "remote"</div>
+          </div>
+
+          <!-- Card: Gratuito -->
+          <div class="card">
+            <div class="card__icon"><i class="ph ph-check-circle"></i></div>
+            <h3 class="card__title">100% Gratuito</h3>
+            <p class="card__text">Evento totalmente gratuito. Sem barreiras para inovar.</p>
+            <div class="card__footer">cost: R$ 0,00</div>
+          </div>
+
+          <!-- Card: Equipes -->
+          <div class="card">
+            <div class="card__icon"><i class="ph ph-users-three"></i></div>
+            <h3 class="card__title">Equipes 3-4</h3>
+            <p class="card__text">Forme seu time ou encontre parceiros durante o evento.</p>
+            <div class="card__footer">team.size: [3, 4]</div>
+          </div>
+
+          <!-- Card: Mentoria -->
+          <div class="card">
+            <div class="card__icon"><i class="ph ph-chats-circle"></i></div>
+            <h3 class="card__title">Mentoria Técnica</h3>
+            <p class="card__text">Mentores experientes do ecossistema de startups e tecnologia.</p>
+            <div class="card__footer">mentoring: enabled</div>
+          </div>
+
+          <!-- Card: Premio -->
+          <div class="card">
+            <div class="card__icon"><i class="ph ph-trophy"></i></div>
+            <h3 class="card__title">R$ 5.000</h3>
+            <p class="card__text">Premiação para o 1º lugar. Além de visibilidade e oportunidades no ecossistema.</p>
+            <div class="card__footer">reward.transfer(winner)</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-2xl);" class="gs-reveal">
+          <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Garantir minha vaga <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 4: MENTORES
+         ======================================== -->
+    <section class="section section--bordered" id="mentores">
+      <div class="container">
+        <p class="section-label gs-reveal">// 04_MENTORES</p>
+        <div class="grid-2">
+          <div class="gs-reveal">
+            <h2>Quer ser <span class="text-accent">mentor</span>?</h2>
+            <p class="text-muted" style="margin-top: var(--space-lg); line-height: 1.8;">
+              Compartilhe seu conhecimento e ajude equipes a desenvolverem soluções inovadoras com IA. Sua experiência pode ser o diferencial de um time.
+            </p>
+
+            <ul class="terminal-list" style="margin-top: var(--space-xl);">
+              <li><span class="text-accent">&gt;</span> Mentoria técnica online</li>
+              <li><span class="text-accent">&gt;</span> Apoio às equipes participantes</li>
+              <li><span class="text-accent">&gt;</span> Networking e experiência</li>
+              <li><span class="text-accent">&gt;</span> Certificado de participação</li>
+            </ul>
+
+            <a href="https://tally.so/r/Y5Q866" target="_blank" rel="noopener noreferrer" class="btn-primary" style="margin-top: var(--space-xl);">
+              Inscreva-se como Mentor <span>&rarr;</span>
+            </a>
+          </div>
+
+          <div class="gs-reveal">
+            <div class="terminal-window">
+              <div class="terminal-window__header">
+                <div class="terminal-window__dot terminal-window__dot--red"></div>
+                <div class="terminal-window__dot terminal-window__dot--yellow"></div>
+                <div class="terminal-window__dot terminal-window__dot--green"></div>
+                <span class="terminal-window__title">mentor.config</span>
+              </div>
+              <div class="terminal-window__body">
+                <p class="terminal-prompt">load mentor.profile</p>
+                <br>
+                <p class="terminal-output">role: "mentor"</p>
+                <p class="terminal-output">format: "online"</p>
+                <p class="terminal-output">commitment: "6-8 Mar 2026"</p>
+                <p class="terminal-output">benefits: [</p>
+                <p class="terminal-output">&nbsp;&nbsp;"networking",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"certificado",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"visibilidade",</p>
+                <p class="terminal-output">&nbsp;&nbsp;"impacto"</p>
+                <p class="terminal-output">]</p>
+                <br>
+                <p class="terminal-comment">mentor profile ready.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 5: MISSAO
+         ======================================== -->
+    <section class="section section--bordered" id="missao">
+      <div class="container">
+        <p class="section-label gs-reveal">// 05_MISSAO</p>
+        <h2 class="gs-reveal" style="max-width: 700px;">
+          Conectar quem <span class="text-accent">constrói</span> com quem <span class="text-accent">acelera</span>.
+        </h2>
+        <p class="text-muted gs-reveal" style="max-width: 600px; margin-top: var(--space-lg);">
+          Um espaço para transformar capacidade técnica e visão de negócio em soluções com potencial real de evolução.
+        </p>
+
+        <div class="gallery gs-stagger" style="margin-top: var(--space-2xl);">
+          <div class="gallery__item">
+            <img src="assets/images/hackathon-education-8zL0AeQ1.png" alt="Imersão Growthway" loading="lazy">
+          </div>
+          <div class="gallery__item">
+            <img src="assets/images/hackathon-climate-CbtYMLTT.png" alt="Equipes colaborando" loading="lazy">
+          </div>
+          <div class="gallery__item">
+            <img src="assets/images/hackathon-public-services-t_0Ysl8h.png" alt="Mentoria e apresentações" loading="lazy">
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-2xl);" class="gs-reveal">
+          <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Inscreva-se agora <span>&rarr;</span>
+          </a>
+          <a href="#porque" class="btn-outline" style="margin-left: 1rem;">
+            <span class="mono">&gt;</span> Por que participar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 6: POR QUE PARTICIPAR
+         ======================================== -->
+    <section class="section section--bordered" id="porque">
+      <div class="container">
+        <p class="section-label gs-reveal">// 06_POR_QUE</p>
+        <h2 class="gs-reveal">Por que <span class="text-accent">participar</span>?</h2>
+
+        <div class="reasons-list gs-stagger">
+          <div class="reason-item">
+            <span class="reason-number">01</span>
+            <div>
+              <h3>Desafios reais</h3>
+              <p class="text-muted">Trabalhar em desafios reais do mundo das startups.</p>
+            </div>
+          </div>
+
+          <div class="reason-item">
+            <span class="reason-number">02</span>
+            <div>
+              <h3>Mentores e especialistas</h3>
+              <p class="text-muted">Conectar-se com mentores e especialistas do mercado.</p>
+            </div>
+          </div>
+
+          <div class="reason-item">
+            <span class="reason-number">03</span>
+            <div>
+              <h3>Caminho para aceleração</h3>
+              <p class="text-muted">Criar soluções que podem evoluir para um programa de aceleração.</p>
+            </div>
+          </div>
+
+          <div class="reason-item">
+            <span class="reason-number">04</span>
+            <div>
+              <h3>Networking</h3>
+              <p class="text-muted">Fazer networking com founders e construtores.</p>
+            </div>
+          </div>
+
+          <div class="reason-item">
+            <span class="reason-number">05</span>
+            <div>
+              <h3>Visibilidade</h3>
+              <p class="text-muted">Ganhar visibilidade dentro do ecossistema Growthway.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-2xl);" class="gs-reveal">
+          <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Quero fazer parte <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 7: REGULAMENTO
+         ======================================== -->
+    <section class="section section--bordered" id="regulamento">
+      <div class="container" style="text-align: center;">
+        <p class="section-label gs-reveal" style="justify-content: center;">// 07_REGULAMENTO</p>
+        <h2 class="gs-reveal">Regras e <span class="text-accent">diretrizes</span></h2>
+        <p class="text-muted gs-reveal" style="max-width: 500px; margin: var(--space-lg) auto 0;">
+          Leia atentamente o regulamento completo do hackathon para entender todas as regras, critérios de avaliação e condições de participação.
+        </p>
+        <a href="https://docs.google.com/document/d/1zKYHeRV6fOZ94imMwJbPkMTbJQrPtrYjqEpGFx20rCI/edit?tab=t.0" target="_blank" rel="noopener noreferrer" class="btn-outline gs-reveal" style="margin-top: var(--space-xl);">
+          <i class="ph ph-file-text" style="font-size: 1.1rem;"></i>
+          Acessar regulamento completo
+        </a>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 8: FAQ
+         ======================================== -->
+    <section class="section section--bordered" id="faq">
+      <div class="container">
+        <p class="section-label gs-reveal">// 08_FAQ</p>
+        <h2 class="gs-reveal">Perguntas <span class="text-accent">frequentes</span></h2>
+        <p class="text-muted gs-reveal" style="margin-top: var(--space-md);">
+          Tire suas dúvidas antes de se inscrever.
+        </p>
+
+        <div class="faq-list gs-stagger" style="margin-top: var(--space-xl);">
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>O hackathon é online ou presencial?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                O evento é 100% online. Toda a jornada &mdash; abertura, mentorias, desenvolvimento e apresentações &mdash; acontece em ambiente digital.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Preciso ter uma startup para participar?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Não obrigatoriamente. Pessoas com perfil construtor, desenvolvedores, designers e profissionais de negócio podem participar individualmente ou em equipe. Se você já tem uma startup ou solução, melhor ainda.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Posso participar sozinho?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Sim. Você pode se inscrever individualmente e formar equipe durante o evento, ou já entrar com um time.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quantas pessoas podem ter em uma equipe?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Equipes de 3 a 4 pessoas. Recomendamos equipes multidisciplinares (ex: tecnologia + produto/negócio).
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>O que preciso entregar ao final do hackathon?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Uma proposta de solução validada, que pode incluir protótipo, modelo conceitual, demonstração funcional ou apresentação estruturada &mdash; o foco é mostrar como sua solução resolve o desafio proposto.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>O desafio será divulgado antes?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                O desafio será apresentado na abertura do Hackathon, para garantir igualdade de condições entre as equipes.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quem avalia os projetos?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Os projetos serão avaliados por uma banca formada por especialistas em produto, tecnologia, negócios e inovação.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Existe premiação?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Sim. O 1º lugar recebe R$ 5.000. Além disso, as soluções de maior destaque podem receber mentorias, visibilidade dentro do ecossistema e oportunidades de conexão com o Growthway.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Participar garante entrada no Growthway?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Não. O hackathon pode abrir portas e dar visibilidade às soluções, mas a entrada no programa de aceleração Growthway segue critérios próprios de seleção.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quais tecnologias posso usar?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Não há restrição específica &mdash; as equipes podem escolher as ferramentas e tecnologias que façam sentido para sua solução.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Preciso ter experiência em hackathons?</span>
+              <span class="faq-question__icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Não. O mais importante é sua capacidade de construir soluções relevantes e colaborar com o time.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-2xl);" class="gs-reveal">
+          <p class="text-muted" style="margin-bottom: var(--space-md);">Ainda com dúvidas? Entre em contato conosco.</p>
+          <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Fazer minha inscrição <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 9: REALIZADORES
+         ======================================== -->
+    <section class="section section--bordered" id="realizadores">
+      <div class="container" style="text-align: center;">
+        <p class="section-label gs-reveal" style="justify-content: center;">// 09_REALIZADORES</p>
+        <h2 class="gs-reveal">Realizadores</h2>
+        <p class="text-muted gs-reveal" style="max-width: 500px; margin: var(--space-md) auto 0;">
+          Essas empresas trazem a estrutura técnica e a rede para que as soluções saiam do papel e cheguem a quem precisa.
+        </p>
+        <div class="sponsors-grid gs-reveal" style="margin-top: var(--space-2xl);">
+          <span class="mono" style="font-size: 1.1rem; color: var(--color-text-secondary); letter-spacing: 0.05em;">GROWTHWAY</span>
+          <span style="color: var(--color-border);">|</span>
+          <span class="mono" style="font-size: 1.1rem; color: var(--color-text-secondary); letter-spacing: 0.05em;">BEGROWTH</span>
+          <span style="color: var(--color-border);">|</span>
+          <span class="mono" style="font-size: 1.1rem; color: var(--color-text-secondary); letter-spacing: 0.05em;">NEWHACK</span>
+        </div>
+
+        <div class="gs-reveal" style="margin-top: var(--space-2xl);">
+          <a href="#inscreva" class="btn-outline">
+            <span class="mono">&gt;</span> Conheça o programa de aceleração
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 10: CTA FINAL / INSCREVA-SE
+         ======================================== -->
+    <section class="section section--bordered" id="inscreva" style="padding-bottom: var(--space-4xl);">
+      <div class="container" style="text-align: center;">
+        <div class="terminal-window gs-reveal" style="max-width: 700px; margin: 0 auto;">
+          <div class="terminal-window__header">
+            <div class="terminal-window__dot terminal-window__dot--red"></div>
+            <div class="terminal-window__dot terminal-window__dot--yellow"></div>
+            <div class="terminal-window__dot terminal-window__dot--green"></div>
+            <span class="terminal-window__title">GrowthWay Hack v1.0.0 <span class="text-accent">* INSCRIÇÕES ABERTAS</span></span>
+          </div>
+          <div class="terminal-window__body" style="padding: var(--space-2xl); text-align: center;">
+            <pre class="ascii-art" style="display: inline-block; text-align: left; margin-bottom: var(--space-xl); font-size: clamp(0.3rem, 0.65vw, 0.5rem);">
+ ██████╗ ██████╗ ██╗    ██╗
+██╔════╝ ██╔══██╗██║    ██║
+██║  ███╗██████╔╝██║ █╗ ██║
+██║   ██║██╔══██╗██║███╗██║
+╚██████╔╝██║  ██║╚███╔███╔╝
+ ╚═════╝ ╚═╝  ╚═╝ ╚══╝╚══╝</pre>
+
+            <h2 style="font-size: var(--fs-h2);">Inscreva-se <span class="text-accent">agora</span></h2>
+            <p class="text-muted" style="margin-top: var(--space-md); max-width: 450px; margin-left: auto; margin-right: auto;">
+              Construa soluções reais com mentores que criaram negócios do zero. Vagas limitadas.
+            </p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-top: var(--space-xl); flex-wrap: wrap;">
+              <a href="https://tally.so/r/yP6LK6" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                Fazer inscrição <span>&rarr;</span>
+              </a>
+              <a href="#sobre" class="btn-outline">
+                <span class="mono">&gt;</span> Saiba mais
+              </a>
+            </div>
+
+            <div style="margin-top: var(--space-xl); display: flex; align-items: center; justify-content: center; gap: var(--space-lg); flex-wrap: wrap;">
+              <span class="status-badge">active</span>
+              <span class="mono" style="font-size: var(--fs-label); color: var(--color-text-muted);">hackathon_v1</span>
+              <span class="mono" style="font-size: var(--fs-label); color: var(--color-text-muted);">100% online</span>
+              <span class="mono" style="font-size: var(--fs-label); color: var(--color-text-muted);">deadline: 06 Mar 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="nav__brand" style="font-size: 1.1rem;">
+            <span class="text-accent">$</span> growthway_hack
+          </p>
+          <p class="text-muted" style="margin-top: var(--space-sm); font-size: var(--fs-small);">
+            Ideias que aceleram o futuro.
+          </p>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/growthway.vc/" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/growthway-vc/" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="https://youtu.be/gfHxm6fyG6A" target="_blank" rel="noopener" class="footer__social-link" aria-label="YouTube">
+            <i class="ph ph-youtube-logo"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> Growthway. Todos os direitos reservados.</p>
+        <p>> process.exit(0)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================
+       SCRIPTS
+       ======================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script src="js/animations.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/faq.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
