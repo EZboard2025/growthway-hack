@@ -199,6 +199,28 @@
   }
 }
 
+@media (max-width: 768px) {
+  .sponsors-grid {
+    gap: var(--space-lg);
+  }
+
+  .btn-primary,
+  .btn-outline {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero__cta {
+    flex-direction: column;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* ========================================
    STATUS BADGE
    ======================================== */

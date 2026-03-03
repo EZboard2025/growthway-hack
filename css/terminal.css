@@ -99,9 +99,46 @@
 
 .ascii-art--hero {
   top: 5%;
-  right: -5%;
+  right: 0;
   font-size: clamp(0.25rem, 0.5vw, 0.45rem);
   z-index: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .ascii-art--hero,
+  .ascii-art[style*="inline-block"] {
+    display: none;
+  }
+
+  .terminal-window {
+    max-width: 100%;
+  }
+
+  .terminal-window__body {
+    padding: var(--space-md);
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+  }
+
+  .terminal-window__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 60vw;
+  }
+
+  .terminal-output,
+  .terminal-prompt,
+  .terminal-comment {
+    font-size: clamp(0.6rem, 2.5vw, 0.75rem);
+    word-break: break-word;
+  }
+
+  .status-bar {
+    gap: var(--space-sm);
+  }
 }
 
 /* ========================================
