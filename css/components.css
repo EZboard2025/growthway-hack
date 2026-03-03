@@ -200,6 +200,10 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 6rem !important;
+  }
+
   .sponsors-grid {
     gap: var(--space-lg);
   }
